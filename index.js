@@ -30,7 +30,7 @@ Todo.prototype.getDateString = function () {
     ${this.date.getHours()}:${this.date.getMinutes()}`;
 };
 //Handlers
-let todos = [new Todo("가"),new Todo("마동석"),new Todo("마동석가"),new Todo("마동석나")];
+let todos = [];
 const addTodo = (todo) => {
     //add todo to todos 하나의 투두를 만들어서 배열에서 합침 ...
     todos.push(todo)
