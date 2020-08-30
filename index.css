@@ -1,0 +1,57 @@
+#todo-input {
+  width: 512px;
+}
+
+#todo-order-wrapper{
+  text-align: right;
+  margin-right: 5px;
+  font-size: 0.9em;
+}
+
+.todo {
+  padding: 8px;
+  border-bottom: 1px solid #e9e9e9;
+  transition: 0.3s background;
+}
+.todo:hover {
+  background: #e9e9e9;
+}
+.todo > .options {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.todo > .options > .delete{
+  cursor: pointer;
+  border: 1px solid red;
+  transition: 0.3s background, color;
+  color: red;
+  padding: 4px 8px;
+}
+
+.todo > .options > .edit{
+  cursor: pointer;
+  border: 1px solid #5882FA;
+  transition: 0.3s background, color;
+  color: #5882FA;
+  padding: 4px 8px;
+}
+
+.todo > .options > .delete:hover {
+  background: red;
+  color: white;
+}
+.todo >.options > .edit{
+  margin-right:5px;
+}
+
+.todo >.options > .edit:hover{
+  background: #5882FA;
+  color: white;
+}
+
+.todo > .date {
+  text-align: right;
+  margin-right:3px;
+  font-size:0.9em;
+}
